@@ -6,10 +6,10 @@
  * modification, are permitted provided that the following conditions are met:
  *
  * 1. Redistributions of source code must retain the above copyright notice, this
- *    list of conditions and the following disclaimer.
+ * list of conditions and the following disclaimer.
  * 2. Redistributions in binary form must reproduce the above copyright notice,
- *    this list of conditions and the following disclaimer in the documentation
- *    and/or other materials provided with the distribution.
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -25,6 +25,8 @@
 
 rootProject.name = "unethicalite-plugins"
 
+// --- Plugins desactivados (Comentados para que no estorben) ---
+
 //include("hoot-blackjack")
 //include("hoot-trawler")
 //include("hoot-pickpocket")
@@ -32,32 +34,34 @@ rootProject.name = "unethicalite-plugins"
 //include("hoot-chins")
 //include("hoot-notifier")
 //include("hoot-karambwanfisher")
+//include("hoot-tempoross")
 
-include("hoot-tempoross")
+//include("unethical-fighter")
+//include("unethical-butler")
+//include("unethical-birdhouses")
+//include("unethical-kebab-buyer")
+//include("unethical-autologin")
+//include("unethical-oneclick")
+//include("unethical-agility")
+//include("unethical-prayer")
+//include("unethical-explorer")
+//include("unethical-chopper")
+//include("unethical-zulrah")
+//include("unethical-cooker")
+//include("unethical-bankpin")
+//include("unethical-tempoross")
+//include("unethical-pickpocket")
 
-include("unethical-fighter")
-include("unethical-butler")
-include("unethical-birdhouses")
-include("unethical-kebab-buyer")
-include("unethical-autologin")
-include("unethical-oneclick")
-include("unethical-agility")
-include("unethical-prayer")
-include("unethical-explorer")
-include("unethical-chopper")
-include("unethical-zulrah")
-include("unethical-cooker")
-include("unethical-bankpin")
-include("unethical-tempoross")
-include("unethical-pickpocket")
+// --- ESTE ES EL ÚNICO ACTIVO ---
 include("unethical-logout")
 
-include("m-autoswitcher")
-include("m-powerfisher")
-include("m-wintertodt")
+//include("m-autoswitcher")
+//include("m-powerfisher")
+//include("m-wintertodt")
 
 //include("example-kotlin")
 
+// --- Configuración interna (NO TOCAR) ---
 for (project in rootProject.children) {
     project.apply {
         projectDir = file(name)
