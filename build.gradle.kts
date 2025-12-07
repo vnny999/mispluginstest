@@ -13,7 +13,7 @@ plugins {
     kotlin("jvm") version "1.6.21"
 }
 
-project.extra["GithubUrl"] = "https://github.com/vnny999/mispluginstest"
+project.extra["GithubUrl"] = "https://github.com/melxin/devious-plugins-extended"
 project.extra["GithubUserName"] = "vnny999"
 project.extra["GithubRepoName"] = "mispluginstest"
 
